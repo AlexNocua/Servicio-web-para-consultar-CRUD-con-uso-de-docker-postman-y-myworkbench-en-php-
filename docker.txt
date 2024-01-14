@@ -1,0 +1,31 @@
+docker es un motor de contenedores que no emula un sistema operativo, esta permite empaquetar la palicacion en un contenedor para poner todo lo que se encesite en ello.
+este se maneja por medio de comandos.
+
+logout:permite salir de la sesion de docker
+logs: logs de los contenedores
+pause: pausar los contenedores
+port: establecer un puerto donde quiero que corra nuestro contenedores
+ps: listar contenedores que esta corriendo 
+pull: descargar imagen
+push: subir imagen
+rename: renombrar
+restart: reiniciar
+rm: eliminar contenedor
+rml: eliminar imagen
+run: correr imagen y volverla contenedor
+save: salvar imagen como archivo .tar
+search: buscar una imagen
+start: correr un contenedor creado
+stats: ver recursos que estan consumiendo los contenedores 
+stop: parar un contenedor
+tag: hacer referencia a una imagen por medio de una etiqueta
+top: desplegar todos los procesos de los contenedores
+unpause: reanudar contenedores pausados 
+update: actualizar configuraciones de uno o mas contenedores
+version: vercion del docker
+wait: porque paro un contenedor
+
+Dockerfile es un archivo que nos permite crear una imagen en base a otra imagen.
+docker build es para ejecutar un archivo Dockerfile
+
+Dockercompose es un un formato YAML
