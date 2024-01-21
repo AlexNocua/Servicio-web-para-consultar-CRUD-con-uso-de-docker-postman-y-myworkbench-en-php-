@@ -12,10 +12,9 @@ services:
     ports:
       - "3307:3306"
     volumes:
-      - ./mysqldata:/var/www/html
+      - ./mysqldata:/var/www/html  
     restart: always
-
-
+    
   web:
     image: php:7.3-apache
     container_name: docker-php
@@ -23,6 +22,6 @@ services:
       - "80:80"
     volumes:
       - ./www:/var/www/html
-    restart: always
+    restart: always  
     links:
-     - mysql
+      - mysql
